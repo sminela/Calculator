@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id = "kalkulator">
+            <input id="brojevi" type="text">
+            <input id="rezultat" type="text">
+            <div id="buttons">
+                <button id="clear" onclick="clearEvr()">C</button>
+                <button class="operation" id="procent" onclick="sql()">√</button>
+                <button class="operation" id="divide" onclick="insertOp('/')">/</button>
+                <button class="operation" id="backspace" onclick="backSpc()"> ← </button>
+                <button class="numbers" id="seven" onclick="insertNum(7)">7</button>
+                <button class="numbers" id="eight" onclick="insertNum(8)">8</button>
+                <button class="numbers" id="nine" onclick="insertNum(9)">9</button>
+                <button class="operation" id="multipy" onclick="insertOp('*')">x</button>
+                <button class="numbers" id="four" onclick="insertNum(4)">4</button>
+                <button class="numbers" id="five" onclick="insertNum(5)">5</button>
+                <button class="numbers" id="six" onclick="insertNum(6)">6</button>
+                <button class="operation" id="minus" onclick="insertOp('-')">-</button>
+                <button class="numbers" id="one" onclick="insertNum(1)">1</button>
+                <button class="numbers" id="two" onclick="insertNum(2)">2</button>
+                <button class="numbers" id="three" onclick="insertNum(3)">3</button>
+                <button class="operation" id="plus" onclick="insertOp('+')">+</button>
+                <button class="numbers" id="point" onclick="insertDec()">.</button>
+                <button class="numbers" id="zero" onclick="insertNum(0)">0</button>
+                <button class="numbers" id="min" onclick="procent()">%</button>
+                <button class="operation" id="equal" onclick="equalTo()">=</button>
+            </div>
+
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
